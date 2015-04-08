@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2868179C1AD54B1F00191CD9 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 2868179B1AD54B1F00191CD9 /* main.c */; };
+		286817A41AD54B6100191CD9 /* my_semaphore.c in Sources */ = {isa = PBXBuildFile; fileRef = 286817A21AD54B6100191CD9 /* my_semaphore.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		286817981AD54B1E00191CD9 /* BS2_Praktikum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BS2_Praktikum; sourceTree = BUILT_PRODUCTS_DIR; };
 		2868179B1AD54B1F00191CD9 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		286817A21AD54B6100191CD9 /* my_semaphore.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = my_semaphore.c; sourceTree = "<group>"; };
+		286817A31AD54B6100191CD9 /* my_semaphore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_semaphore.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				2868179B1AD54B1F00191CD9 /* main.c */,
+				286817A21AD54B6100191CD9 /* my_semaphore.c */,
+				286817A31AD54B6100191CD9 /* my_semaphore.h */,
 			);
 			path = BS2_Praktikum;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				286817A41AD54B6100191CD9 /* my_semaphore.c in Sources */,
 				2868179C1AD54B1F00191CD9 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,7 +150,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = c11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -186,7 +192,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = c11;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
