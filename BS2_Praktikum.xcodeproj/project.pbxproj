@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2868179C1AD54B1F00191CD9 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 2868179B1AD54B1F00191CD9 /* main.c */; };
 		286817A41AD54B6100191CD9 /* my_semaphore.c in Sources */ = {isa = PBXBuildFile; fileRef = 286817A21AD54B6100191CD9 /* my_semaphore.c */; };
+		2880B2161ADE906C00A1C7F2 /* p02_time_reader.c in Sources */ = {isa = PBXBuildFile; fileRef = 2880B2141ADE906C00A1C7F2 /* p02_time_reader.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		2868179B1AD54B1F00191CD9 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		286817A21AD54B6100191CD9 /* my_semaphore.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = my_semaphore.c; sourceTree = "<group>"; };
 		286817A31AD54B6100191CD9 /* my_semaphore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = my_semaphore.h; sourceTree = "<group>"; };
+		2880B2141ADE906C00A1C7F2 /* p02_time_reader.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = p02_time_reader.c; sourceTree = "<group>"; };
+		2880B2151ADE906C00A1C7F2 /* p02_time_reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = p02_time_reader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,8 @@
 			isa = PBXGroup;
 			children = (
 				2868179B1AD54B1F00191CD9 /* main.c */,
+				2880B2141ADE906C00A1C7F2 /* p02_time_reader.c */,
+				2880B2151ADE906C00A1C7F2 /* p02_time_reader.h */,
 				286817A21AD54B6100191CD9 /* my_semaphore.c */,
 				286817A31AD54B6100191CD9 /* my_semaphore.h */,
 			);
@@ -123,6 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2880B2161ADE906C00A1C7F2 /* p02_time_reader.c in Sources */,
 				286817A41AD54B6100191CD9 /* my_semaphore.c in Sources */,
 				2868179C1AD54B1F00191CD9 /* main.c in Sources */,
 			);
@@ -238,6 +244,7 @@
 				286817A11AD54B1F00191CD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
